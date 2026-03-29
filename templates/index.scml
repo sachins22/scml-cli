@@ -1,0 +1,22 @@
+<Scml lang="en">
+<Header>
+    <Meta charset="UTF-8">
+    <Meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <WebIcon src={{uri:"favicon.png"}}> </WebIcon>
+    <WebName></WebName>
+</Header>
+<ViewContent style={style.header}>
+ 
+</ViewContent>
+<Style>
+{
+    header: {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "height": "100vh",
+        "background-color": "#f0f0f0"
+    }
+}
+</Style>
+</Scml>
